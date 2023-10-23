@@ -2,7 +2,7 @@ Name : Bhanu Teja Kanumuri
 Github Username : bkanumur
 E-mail ID : bkanumur@cs.uml.edu / BhanuTeja_Kanumuri@student.uml.edu
 
-Term-Paper- Title : Vulnerabilities, detection and Testing for a Web Application - A Survey  
+Term-Paper- Title : Vulnerabilities, Testing and detection for a Web Application - A Survey  
 
 Abstract: 
 ---------
