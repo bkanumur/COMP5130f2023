@@ -1,0 +1,154 @@
+<!--This code is written entirely by Bhanu Teja Kanumuri-->
+<!---- this file is for the form -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Enhanced Survey Form</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+        </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+        function SubForm() {
+            $.ajax({
+                url: "https://api.apispreadsheets.com/data/0D12WhwI4AvBbu0N/",
+                type: "post",
+                data: $("#myForm").serializeArray(),
+                success: function () {
+                    alert("Form Data Submitted :)")
+                },
+                error: function () {
+                    alert("There was an error :(")
+                }
+            });
+        }
+    </script>
+    <style>
+        body {
+            background-color: #D9AFD9;
+            background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+            font-family: 'Roboto', sans-serif;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+        }
+
+        #heading {
+            text-align: center;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        form {
+            border: 2px solid gray;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px 0;
+        }
+
+        button {
+            background-image: linear-gradient(to right, #314755 0%, #26a0da 51%, #314755 100%);
+
+
+            margin: 10px;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;
+            box-shadow: 0 0 20px #eee;
+            border-radius: 10px;
+            display: block;
+        }
+
+        button:hover {
+            background-position: right center;
+            color: #fff;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        input[type="text"],
+        textarea {
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+
+        legend {
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 id="heading">Thank you for Participating in the Survey!</h2>
+    <legend><b>Tell us more about yourself </b></legend>
+    <form id="myForm" method="POST" enctype="multipart/form-data">
+        <p><label>My Current Location</label>
+            <input name="from" />
+            <br />
+        </p>
+        <p><label>I'd like to live in</label>
+            <input name="like_to_live" />
+            <br />
+        </p>
+        <p><label>My Place of Birth</label>
+            <input name="place_of_birth" />
+            <br />
+        </p>
+        <p><br /><label>Nationality</label>
+            <input name="Nationality" />
+            <br />
+        </p>
+        <p><label>what is the first thing on your bucket list ?</label>
+            <input name="bucketlist" />
+            <br />
+        </p>
+        <p><label>Your Preffered Airline for travel ?</label>
+            <input name="Airline" />
+            <br />
+        </p>
+        <p><label>Tell us your dream holiday destination :</label>
+            <input name="Holidaydestination" />
+            <br />
+        </p>
+
+
+        <p><label>Investment Portfolio</label>
+            <textarea name="investment_portfolio"></textarea>
+            <br />
+        </p>
+        <p><label>My Picture (Upload a Picture)</label>
+            <input type="file" name="my_picture" accept="image/*" />
+            <br />
+        </p>
+        <p><label>Link to your resume (such as LinkedIn) :</label>
+            <input name="resume_link" />
+            <br />
+        </p>
+        <p> Which would you rather prefer ? Hanging out:</p>
+        <p>
+            <input type="radio" value="beach" name="beach_or_mountain">On a beach
+            <input type="radio" value="mountain" name="beach_or_mountain">At a mountain
+            <br />
+        </p>
+        <p><label>Any specific reason or any special moments there?</label>
+            <textarea name="Reason"></textarea>
+            <br />
+        </p>
+        <p><label>Other Facts About Me</label>
+            <textarea name="other_facts"></textarea>
+            <br />
+        </p>
+    </form>
+    <button onclick="SubForm()">Submit</button>
+</body>
+
+</html>
