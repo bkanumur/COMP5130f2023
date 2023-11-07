@@ -1,0 +1,40 @@
+Title: BEYOND THE PAGES
+
+Creating a project research roadmap for "Beyond the Pages" would involve several key phases and activities. 
+A platform dedicated to the art of storytelling. You can find a vast collection of captivating short stories from talented authors across the globe. That's why we encourage an active participation to the users who can share their thoughts and insights by leaving reviews for the stories they read. So the user feedback can help other users for an heads up about what they are reading. And if the user has a story to tell, this is the place they could share it. Our user-friendly platform allows you to craft and publish your own short stories, reaching a passionate community of readers and fellow writers. 
+
+Here's a simplified roadmap we started working on:
+
+Phase 1: Project Inception and Research
+Phase 2: Design and Development
+Phase 3: Testing and Iteration
+Phase 4: Content and Community Building
+
+This roadmap outlines the key steps to develop and grow "Beyond the Pages." The project would require continuous monitoring and adaptation to evolving trends and user needs in the ever-changing digital reading space.
+
+References:
+
+https://dl.acm.org/
+https://ieeexplore.ieee.org/Xplore/home.jsp
+https://www.jstor.org/
+https://books.google.com/
+https://openlibrary.org/
+https://www.storynory.com
+https://archive.org/
+
+Team Members:
+
+1. Bhanu Teja Kanumuri - 02005421
+ Github Username - bkanumur
+ EmailL - BhanuTeja_Kanumuri@student.uml.edu
+ CS ID - bkanumur@cs.uml.edu
+ 
+2. Saicharan Banda - 02082080
+   Giithub Username - Saichranbanda
+   Email - saicharanmudiraj_banda@student.uml.edu
+   CS ID - sbanda@cs.uml.edu
+
+3. Laxmi Niveditha Gandham - 02034250
+   Giithub Username - sbanda
+   Email - laxminiveditha_gandham@student.uml.edu
+   CS ID - lgandham@cs.uml.edu  
