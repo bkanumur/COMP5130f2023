@@ -4,9 +4,9 @@ E-mail ID : bkanumur@cs.uml.edu / BhanuTeja_Kanumuri@student.uml.edu
 
 Title: BEYOND THE PAGES
 
-Updating the previous project progress statement, one thing I'm most proud of accomplishing this week.
+Updating the previous project progress statement, one thing I'm most proud of accomplishing this week is I learned how to create a data base.
 
-I did some reading and research related to my project and found some repositories from which I'm trying to link the short stories online so people can directly redirect to the story or book they want to read and we are trying to implement something better than existing options which makes it interesting for the users to use it.
+I tried to implement the database connectivity but eventually failed. Did some research online to overcome these issues. And trying to fix the problems and bugs.
 
 
 References:
